@@ -1,0 +1,19 @@
+{
+    "name": "dany/dbseller_juan",
+    "type": "p",
+    "authors": [
+        {
+            "name": "Juan Andres",
+            "email": "juan.ferdez.poa@gmail.com"
+        }
+    ],
+    "require": {
+        "rafaelnery/phputils": "^2.0",
+        "pear/pear": "^1.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "DAO\\": "dao"
+        }
+    }
+}
